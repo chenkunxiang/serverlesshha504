@@ -25,7 +25,7 @@
 - Select http trigger.
 - Authorization function + create.
 
-## Screenshots
+# Screenshots
 - GCP
 - https://pythonfgtest-589616134247.europe-west1.run.app
 ![gcpss](gcpss.png)
@@ -33,3 +33,25 @@
 - Azure
 - https://portal.azure.com/#view/WebsitesExtension/FunctionTabMenuBlade/~/codeTest/resourceId/%2Fsubscriptions%2F494415ca-2b84-4171-9a6b-c4c43a6c532a%2Fresourcegroups%2FSchool%2Fproviders%2FMicrosoft.Web%2Fsites%2Fpythonfg%2Ffunctions%2Fhttp_trigger1
 ![azuress](azuress.png)
+
+## Testing
+- GCP
+- Normal
+![normal](gcptest1.png)
+- High
+![high](gcptest2.png)
+- Low
+![low](gcptest3.png)
+
+- Azure
+- - Normal
+![normal](azuretest1.png)
+- High
+![high](azuretest2.png)
+- Low
+![low](azuretest3.png)
+
+## Other notes
+- GCP and Azure were used to accomplish the same function albeit in slightly different ways.
+- GCP can be made public or api key based, but Azure is has more features and the setup is heavier than GCP and each function already generates its own key.
+- GCP needs users to edit the function and then redeploy it seperately and does not offer built in testing, Azure is able to edit the function live and test within its own window as well.
