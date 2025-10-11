@@ -26,5 +26,10 @@
 - Authorization function + create.
 
 ## Screenshots
+- GCP
 - https://pythonfgtest-589616134247.europe-west1.run.app
-![gcpss]()
+![gcpss](gcpss.png)
+
+- Azure
+- https://portal.azure.com/#view/WebsitesExtension/FunctionTabMenuBlade/~/codeTest/resourceId/%2Fsubscriptions%2F494415ca-2b84-4171-9a6b-c4c43a6c532a%2Fresourcegroups%2FSchool%2Fproviders%2FMicrosoft.Web%2Fsites%2Fpythonfg%2Ffunctions%2Fhttp_trigger1
+![azuress](azuress.png)
